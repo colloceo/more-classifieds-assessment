@@ -1,8 +1,6 @@
 # More Classifieds Redesign (React)
 
-A premium, modern redesign of More.co.ke built with React. This project focuses on visual excellence, SEO optimization, and an improved user experience for Kenyas fastest-growing marketplace.
-
-## Design Philosophy
+## Design 
 
 ### Theme & Aesthetics
 The redesign adopts a **Premium Dark** aesthetic, moving away from standard templates to a high-end, immersive experience.
@@ -44,19 +42,6 @@ A highly functional, data-rich form that manages complexity with style.
 
 ---
 
-## SEO Audit Summary (more.co.ke)
-
-### Technical Findings
-- **Headings**: The current live site lacks a primary H1 tag on the homepage, which is critical for search engine indexing.
-- **Meta Data**: General title and descriptions are present but lack local/regional keyword targeting (e.g., "Kenya Classifieds").
-- **Accessibility**: Missing alt-tags on several product and hero images.
-
-### Implementation in Redesign
-- **H1 Optimization**: Every page in the redesign includes a semantic, keyword-rich H1.
-- **SEO Ready**: Meta tags and semantic HTML5 elements are used throughout to ensure crawlability.
-- **Speed**: Optimized asset loading through Vite and efficient CSS-only styling ensures fast load times.
-
----
 
 ## Tech Stack
 - **Library**: React 19
