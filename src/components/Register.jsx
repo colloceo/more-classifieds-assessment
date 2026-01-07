@@ -37,8 +37,8 @@ const Register = () => {
 
             <div className="form-side animate-fade-in">
                 <div style={{ maxWidth: '500px', margin: '0 auto', width: '100%' }}>
-                    <h2 style={{ fontSize: '2rem', marginBottom: '0.5rem' }}>Create Seller Account</h2>
-                    <p style={{ color: 'var(--text-muted)', marginBottom: '2.5rem' }}>Fill in the details below to get started.</p>
+                    <h2 className="form-title">Create Seller Account</h2>
+                    <p style={{ color: 'var(--text-muted)', marginBottom: '1.5rem' }}>Fill in the details below to get started.</p>
 
                     <form onSubmit={handleSubmit}>
                         <label>Account Type</label>
@@ -121,13 +121,9 @@ const Register = () => {
                         </div>
 
                         <div className="social-btns">
-                            <button type="button" className="btn btn-secondary">
+                            <button type="button" className="btn btn-secondary" style={{ width: '100%' }}>
                                 <img src="https://www.google.com/favicon.ico" style={{ width: '20px', marginRight: '10px' }} alt="" aria-hidden="true" />
                                 Google
-                            </button>
-                            <button type="button" className="btn btn-secondary">
-                                <img src="https://www.facebook.com/favicon.ico" style={{ width: '20px', marginRight: '10px' }} alt="" aria-hidden="true" />
-                                Facebook
                             </button>
                         </div>
 

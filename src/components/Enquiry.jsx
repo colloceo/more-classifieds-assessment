@@ -1,4 +1,5 @@
 import React, { useState, useRef } from 'react';
+import { Link } from 'react-router-dom';
 import Navbar from './Navbar';
 
 const Enquiry = () => {
@@ -19,6 +20,7 @@ const Enquiry = () => {
 
     return (
         <div className="container">
+            <Link to="/" className="back-link">← Back to Home</Link>
             <Navbar />
             <main className="enquiry-container animate-fade-in">
                 <div className="glass-card">
