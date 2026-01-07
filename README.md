@@ -35,7 +35,7 @@ The redesign moves away from standard flat templates to create an immersive user
 
 ---
 
-##⚡ Page Breakdowns
+## Page Breakdowns
 
 ###  1. Home Page
 A high-level dashboard showcasing the design system's capabilities.
