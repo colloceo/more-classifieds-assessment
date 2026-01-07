@@ -52,18 +52,17 @@ const Enquiry = () => {
                             <input type="text" placeholder="Enter your enquiry subject" required />
                         </div>
 
-                        <label>Priority Level</label>
-                        <div className="priority-pills">
-                            {['low', 'medium', 'high'].map((level) => (
-                                <div
-                                    key={level}
-                                    className={`priority-pill ${priority === level ? 'active' : ''}`}
-                                    data-level={level}
-                                    onClick={() => setPriority(level)}
-                                >
-                                    {level.charAt(0).toUpperCase() + level.slice(1)}
-                                </div>
-                            ))}
+                        <div className="form-group">
+                            <label htmlFor="priority">Priority Level</label>
+                            <select
+                                id="priority"
+                                value={priority}
+                                onChange={(e) => setPriority(e.target.value)}
+                            >
+                                <option value="low">Low</option>
+                                <option value="medium">Medium</option>
+                                <option value="high">High</option>
+                            </select>
                         </div>
 
                         <div className="form-group">

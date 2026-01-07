@@ -1,6 +1,6 @@
 # More Classifieds Redesign (React)
 
-A premium, modern redesign of More.co.ke built with React. This project focuses on visual excellence, SEO optimization, and an improved user experience for Kenyas fastest-growing marketplace.
+A premium, modern redesign of More.co.ke built with React. This project focuses on visual excellence, SEO optimization, and an improved user experience for Kenya's fastest-growing marketplace.
 
 ## Design Philosophy
 
@@ -13,8 +13,8 @@ The redesign adopts a **Premium Dark** aesthetic, moving away from standard temp
 
 ### Component Structure
 - **Responsive Grid System**: A custom-built CSS utility that adapts from multi-column layouts on desktop to clean vertical stacks on mobile.
+- **Mobile First Optimization**: Form elements and glass-cards have been optimized to take maximum screen width on small devices, ensuring an effortless experience for mobile users.
 - **Micro-interactions**: Smooth transitions on hover and focus states to provide instant user feedback.
-- **Modular Components**: Reusable Navbar, GlassCard, and Form elements for design consistency.
 
 ---
 
@@ -29,6 +29,7 @@ A high-level landing page that showcases the design system. It uses a responsive
 ### 2. Registration Page
 A sophisticated split-screen layout designed for high conversion.
 - **Structure**: 50/50 Split on desktop. The left side is a visual/brand anchor, while the right side handles the interactive forms.
+- **Mobile Width**: Padding and margins are minimized on mobile to allow the form to occupy more screen real estate.
 - **Dynamic Logic**: The "Full Name" label and placeholder automatically toggle to "Company Name" when the user selects the "Company" account type.
 - **Social Auth**: Integrated, clean UI for one-tap login via Google or Facebook.
 ![Register Page Snapshot](docs/screenshots/register.png)
@@ -37,8 +38,8 @@ A sophisticated split-screen layout designed for high conversion.
 A highly functional, data-rich form that manages complexity with style.
 - **Structure**: Concentric glassmorphic cards with organized input clusters.
 - **UI Elements**: 
-    - **Priority Pills**: Interactive toggles for Low, Medium, and High priority.
-    - **Multi-Selects**: Clean dropdowns for Department and Regional targeting (Kenya, Uganda, etc.).
+    - **Priority Management**: Integrated dropdown menu for selecting priority levels, optimized for vertical consistency.
+    - **Regional Targeting**: Clean dropdowns for Department and Regional targeting (Kenya, Uganda, etc.).
     - **Attachments**: Custom-styled file upload area.
 ![Enquiry Page Snapshot](docs/screenshots/enquiry.png)
 
