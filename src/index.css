@@ -327,7 +327,8 @@ nav {
   right: 1rem;
   color: var(--text-muted);
   text-decoration: none;
-  display: flex;
+  display: none;
+  /* Hidden on desktop */
   align-items: center;
   gap: 0.5rem;
   z-index: 10;
@@ -411,6 +412,11 @@ nav {
   .form-side {
     height: auto;
     padding-top: 6rem;
+  }
+
+  .back-link {
+    display: flex;
+    /* Shown on mobile */
   }
 }
 
