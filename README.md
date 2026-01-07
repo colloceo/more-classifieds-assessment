@@ -1,72 +1,81 @@
-# More Classifieds Redesign (React)
+# More Classifieds Redesign (React 19)
 
-A premium, modern redesign of More.co.ke built with React. This project focuses on visual excellence, SEO optimization, and an improved user experience for Kenya's fastest-growing marketplace.
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Vercel-black?style=for-the-badge&logo=vercel)](https://more-classifieds-assessment.vercel.app/)
+[![React](https://img.shields.io/badge/React-19.0-blue?style=for-the-badge&logo=react)](https://react.dev/)
+[![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)]()
 
-## Design Philosophy
-
-### Theme & Aesthetics
-The redesign adopts a **Premium Dark** aesthetic, moving away from standard templates to a high-end, immersive experience.
-- **Glassmorphism**: Extensive use of backdrop-blur effects and semi-transparent layers to create depth and a modern "glassy" feel.
-- **Color Palette**: A deep navy/slate background (`#0f172a`) contrasted with the signature brand orange (`#f65016`) for primary actions.
-- **Typography**: The **Outfit** sans-serif font is used throughout for its clean, geometric, and professional appearance.
-- **Visual Depth**: Subtle radial gradients and card shadows create a three-dimensional interface that feels "alive."
-
-### Component Structure
-- **Responsive Grid System**: A custom-built CSS utility that adapts from multi-column layouts on desktop to clean vertical stacks on mobile.
-- **Mobile First Optimization**: Form elements and glass-cards have been optimized to take maximum screen width on small devices, ensuring an effortless experience for mobile users.
-- **Micro-interactions**: Smooth transitions on hover and focus states to provide instant user feedback.
+A high-performance, aesthetic modernization of the **More.co.ke** platform. This project focuses on visual depth (Glassmorphism), mobile-first optimization, and technical SEO excellence.
 
 ---
 
-## Page Overview
+##  Tech Stack & Environment
 
-### 1. Home Page
-A high-level landing page that showcases the design system. It uses a responsive grid of glassmorphic cards to guide users toward the new flows.
+This project utilizes the latest ecosystem standards to ensure longevity and performance.
 
-**Structure**: Header -> Hero Section -> Feature Cards -> Footer.
-![Home Page Snapshot](docs/screenshots/home.png)
-
-### 2. Registration Page
-A sophisticated split-screen layout designed for high conversion.
-- **Structure**: 50/50 Split on desktop. The left side is a visual/brand anchor, while the right side handles the interactive forms.
-- **Mobile Width**: Padding and margins are minimized on mobile to allow the form to occupy more screen real estate.
-- **Dynamic Logic**: The "Full Name" label and placeholder automatically toggle to "Company Name" when the user selects the "Company" account type.
-- **Social Auth**: Integrated, clean UI for one-tap login via Google.
-![Register Page Snapshot](docs/screenshots/register.png)
-
-### 3. Robust Enquiry Form
-A highly functional, data-rich form that manages complexity with style.
-- **Structure**: Concentric glassmorphic cards with organized input clusters.
-- **UI Elements**: 
-    - **Priority Management**: Integrated dropdown menu for selecting priority levels, optimized for vertical consistency.
-    - **Regional Targeting**: Clean dropdowns for Department and Regional targeting (Kenya, Uganda, etc.).
-    - **Attachments**: Custom-styled file upload area.
-![Enquiry Page Snapshot](docs/screenshots/enquiry.png)
+- **Core Library:** React 19 (Latest)
+- **Routing:** React Router 7
+- **Build Tool:** Vite (Superfast HMR)
+- **Styling:** Vanilla CSS3 (Custom Glassmorphic Design System)
+- **Deployment:** Vercel
 
 ---
 
-## SEO Audit Summary (more.co.ke)
+##  Design : "Premium Dark"
 
-### Technical Findings
-- **Headings**: The current live site lacks a primary H1 tag on the homepage, which is critical for search engine indexing.
-- **Meta Data**: General title and descriptions are present but lack local/regional keyword targeting (e.g., "Kenya Classifieds").
-- **Accessibility**: Missing alt-tags on several product and hero images.
+The redesign moves away from standard flat templates to create an immersive user experience.
 
-### Implementation in Redesign
-- **H1 Optimization**: Every page in the redesign includes a semantic, keyword-rich H1.
-- **SEO Ready**: Meta tags and semantic HTML5 elements are used throughout to ensure crawlability.
-- **Speed**: Optimized asset loading through Vite and efficient CSS-only styling ensures fast load times.
+### 1. Visual Aesthetics
+- **Glassmorphism:** Extensive use of `backdrop-filter: blur()` and semi-transparent layers to create depth and hierarchy.
+- **Color Palette:** A deep navy/slate background (`#0f172a`) ensures high contrast against the signature brand orange (`#f65016`).
+- **Typography:** **Outfit** sans-serif is used for its geometric, modern appeal.
+
+### 2. Mobile-First Architecture
+- **Responsive Grid:** A custom utility-first grid system that transitions fluidly from desktop multi-columns to mobile vertical stacks.
+- **Touch Targets:** All form inputs and buttons are optimized for touch interaction on smaller devices.
 
 ---
 
-## Tech Stack
-- **Library**: React 19
-- **Environment**: Vite
-- **Routing**: React Router 7
-- **Styling**: Vanilla CSS3 (Custom Design System)
+##⚡ Page Breakdowns
 
-## Local Setup
-1. Clone the repository.
-2. Install dependencies: `npm install`
-3. Start the dev server: `npm run dev`
-4. Build for production: `npm run build`
+###  1. Home Page
+A high-level dashboard showcasing the design system's capabilities.
+![Home Page](docs/screenshots/home.png)
+
+###  2. Registration Page
+A sophisticated split-screen layout designed for high conversion rates.
+![Register Page](docs/screenshots/register.png)
+
+###  3. Robust Enquiry Form
+A complex data-entry interface that remains clean and accessible.
+![Enquiry Form](docs/screenshots/enquiry.png)
+
+---
+
+## 🚀 Local Setup
+
+To run this project locally:
+
+1.  **Clone the repository**
+    ```bash
+    git clone [https://github.com/colloceo/more-classifieds-assessment.git](https://github.com/colloceo/more-classifieds-assessment.git)
+    ```
+
+2.  **Install dependencies**
+    ```bash
+    cd more-classifieds-assessment
+    npm install
+    ```
+
+3.  **Run the development server**
+    ```bash
+    npm run dev
+    ```
+
+4.  **Build for production**
+    ```bash
+    npm run build
+    ```
+
+---
+
+**Submitted by:** Collins Odhiambo Otieno
