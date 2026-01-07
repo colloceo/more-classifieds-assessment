@@ -1,28 +1,71 @@
-# More Classifieds Redesign
+# More Classifieds Redesign (React)
 
-## New Design Implementations
+A premium, modern redesign of More.co.ke built with React. This project focuses on visual excellence, SEO optimization, and an improved user experience for Kenyas fastest-growing marketplace.
 
-### React Registration Page
-- Location: /register
-- Features:
-  - Split-screen layout.
-  - Dynamic form labels: Automatically switches between "Full Name" and "Company Name" based on account type selection.
-  - Social Auth: Integrated UI for Google and Facebook login.
-  - Mobile Responsive: Stacks vertically on small screens with optimized tap targets.
+## Design Philosophy
 
-### Robust Enquiry Form
-- Location: /enquiry
-- Features:
-  - Department and Country targeting.
-  - Priority Level selector (Low, Medium, High).
-  - Custom file upload interface.
-  - Glassmorphic UI design matching the overall brand aesthetic.
+### Theme & Aesthetics
+The redesign adopts a **Premium Dark** aesthetic, moving away from standard templates to a high-end, immersive experience.
+- **Glassmorphism**: Extensive use of backdrop-blur effects and semi-transparent layers to create depth and a modern "glassy" feel.
+- **Color Palette**: A deep navy/slate background (`#0f172a`) contrasted with the signature brand orange (`#f65016`) for primary actions.
+- **Typography**: The **Outfit** sans-serif font is used throughout for its clean, geometric, and professional appearance.
+- **Visual Depth**: Subtle radial gradients and card shadows create a three-dimensional interface that feels "alive."
+
+### Component Structure
+- **Responsive Grid System**: A custom-built CSS utility that adapts from multi-column layouts on desktop to clean vertical stacks on mobile.
+- **Micro-interactions**: Smooth transitions on hover and focus states to provide instant user feedback.
+- **Modular Components**: Reusable Navbar, GlassCard, and Form elements for design consistency.
+
+---
+
+## Page Overview
+
+### 1. Home Page
+A high-level landing page that showcases the design system. It uses a responsive grid of glassmorphic cards to guide users toward the new flows.
+
+**Structure**: Header -> Hero Section -> Feature Cards -> Footer.
+![Home Page Snapshot](docs/screenshots/home.png)
+
+### 2. Registration Page
+A sophisticated split-screen layout designed for high conversion.
+- **Structure**: 50/50 Split on desktop. The left side is a visual/brand anchor, while the right side handles the interactive forms.
+- **Dynamic Logic**: The "Full Name" label and placeholder automatically toggle to "Company Name" when the user selects the "Company" account type.
+- **Social Auth**: Integrated, clean UI for one-tap login via Google or Facebook.
+![Register Page Snapshot](docs/screenshots/register.png)
+
+### 3. Robust Enquiry Form
+A highly functional, data-rich form that manages complexity with style.
+- **Structure**: Concentric glassmorphic cards with organized input clusters.
+- **UI Elements**: 
+    - **Priority Pills**: Interactive toggles for Low, Medium, and High priority.
+    - **Multi-Selects**: Clean dropdowns for Department and Regional targeting (Kenya, Uganda, etc.).
+    - **Attachments**: Custom-styled file upload area.
+![Enquiry Page Snapshot](docs/screenshots/enquiry.png)
+
+---
+
+## SEO Audit Summary (more.co.ke)
+
+### Technical Findings
+- **Headings**: The current live site lacks a primary H1 tag on the homepage, which is critical for search engine indexing.
+- **Meta Data**: General title and descriptions are present but lack local/regional keyword targeting (e.g., "Kenya Classifieds").
+- **Accessibility**: Missing alt-tags on several product and hero images.
+
+### Implementation in Redesign
+- **H1 Optimization**: Every page in the redesign includes a semantic, keyword-rich H1.
+- **SEO Ready**: Meta tags and semantic HTML5 elements are used throughout to ensure crawlability.
+- **Speed**: Optimized asset loading through Vite and efficient CSS-only styling ensures fast load times.
+
+---
 
 ## Tech Stack
-- Frontend: React 19, Vite, React Router 7.
-- Styling: Pure CSS3 with modern variables.
+- **Library**: React 19
+- **Environment**: Vite
+- **Routing**: React Router 7
+- **Styling**: Vanilla CSS3 (Custom Design System)
 
-## Getting Started
-1. Install dependencies: `npm install`
-2. Run locally: `npm run dev`
-3. Build: `npm run build`
+## Local Setup
+1. Clone the repository.
+2. Install dependencies: `npm install`
+3. Start the dev server: `npm run dev`
+4. Build for production: `npm run build`
