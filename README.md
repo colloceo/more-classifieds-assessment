@@ -1,16 +1,63 @@
-# React + Vite
+# More Classifieds Redesign (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, premium redesign concept for **More.co.ke**, focusing on enhanced user experience, aesthetic brilliance, and robust functionality. This project migrates the core pages to a React-based Single Page Application (SPA).
 
-Currently, two official plugins are available:
+## 🎨 Design Vision
+The redesign shifts from a standard template to a **"Premium Dark"** aesthetic.
+- **Glassmorphism**: Subtle transparency and blur effects for a depth-rich UI.
+- **Vibrant Accents**: Utilizing the signature brand orange (`#f65016`) for high-contrast call-to-actions.
+- **Modern Typography**: Powered by the **Outfit** typeface for a clean, professional feel.
+- **3D Assets**: Custom-generated isometric marketplace illustrations.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Key Features
 
-## React Compiler
+### 1. Dynamic Registration Flow
+- **Split-Screen Layout**: Immersive visual context on desktop, focused form on mobile.
+- **Smart Logic**: Form labels and placeholders dynamically switch between "Individual" and "Company" modes.
+- **Social Integration**: Ready-to-use UI for Google and Facebook authentication.
+- **Advanced UX**: Fixed-height desktop scrolling and intelligent keyboard focus.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 2. Robust Enquiry System
+- **Structured Categories**: Pre-defined departments (Sales, Support, Billing) and regional targeting.
+- **Priority Management**: Interactive "Priority Pills" for urgent matter flagging.
+- **File Attachments**: Custom-styled file upload interface.
+- **Responsive Layout**: Automatically adapts from multi-column grids to readable vertical stacks.
 
-## Expanding the ESLint configuration
+### 3. Fully Mobile Responsive
+- Built with a mobile-first approach using flexible CSS Grid utilities.
+- Tested across various breakpoints to ensure the "wow" factor persists on all devices.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technology Stack
+- **Framework**: [React 19](https://reactjs.org/)
+- **Build Tool**: [Vite](https://vitejs.dev/)
+- **Routing**: [React Router 7](https://reactrouter.com/)
+- **Styling**: Pure CSS3 with CSS Variables (No heavy frameworks for maximum performance)
+- **Icons**: Lucide React / Custom Brand Assets
+
+## 📦 Getting Started
+
+### Prerequisites
+- Node.js (Latest LTS recommended)
+- npm or yarn
+
+### Installation
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+### Development
+Run the local dev server:
+```bash
+npm run dev
+```
+
+### Build
+Generate production-ready bundle:
+```bash
+npm run build
+```
+
+---
+*Developed as part of the More Classifieds Assessment.*
