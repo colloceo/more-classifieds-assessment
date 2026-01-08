@@ -264,17 +264,14 @@ nav {
 }
 
 .logo {
-  font-size: 1.5rem;
-  font-weight: 800;
-  color: var(--text);
   display: flex;
   align-items: center;
-  gap: 0.5rem;
   text-decoration: none;
 }
 
-.logo span {
-  color: var(--primary);
+.logo img {
+  display: block;
+  object-fit: contain;
 }
 
 .nav-links {
@@ -313,7 +310,7 @@ nav {
 }
 
 .form-side {
-  padding: 8rem 4rem 4rem;
+  padding: 4rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -420,7 +417,6 @@ nav {
   }
 }
 
-
 @media (max-width: 640px) {
   .form-side {
     height: auto;
@@ -431,6 +427,11 @@ nav {
   .form-title {
     font-size: 1.6rem !important;
     margin-bottom: 0.5rem;
+  }
+
+  .priority-pills {
+    flex-direction: column;
+    gap: 0.5rem;
   }
 }
 
