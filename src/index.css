@@ -267,11 +267,42 @@ nav {
   display: flex;
   align-items: center;
   text-decoration: none;
+  gap: 0.2rem;
+  color: var(--text);
+  transition: opacity 0.3s ease;
 }
 
-.logo img {
-  display: block;
-  object-fit: contain;
+.logo:hover {
+  opacity: 0.9;
+}
+
+.nav-logo-icon {
+  height: 38px;
+  /* Slightly larger to match stacked text height */
+  width: auto;
+  margin-right: 10px;
+}
+
+.logo-text-stack {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.logo-main {
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  color: var(--text);
+}
+
+.logo-sub {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--primary);
+  margin-top: -2px;
 }
 
 .nav-links {
